@@ -107,4 +107,4 @@ venv.bak/
 .mypy_cache/
 
 # sphinx documentation
-/docs
+# /docs
