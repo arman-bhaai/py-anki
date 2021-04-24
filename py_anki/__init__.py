@@ -1,1 +1,1 @@
-from py-anki import AnkiApi
+from .py_anki_class import AnkiApi

@@ -2,7 +2,7 @@ import pathlib
 from setuptools import setup, find_packages
 
 CURRENT_PATH = pathlib.Path(__file__).parent
-VERSION = '0.0.2' 
+VERSION = '0.0.5' 
 DESCRIPTION = 'A simple API for Anki Spaced Repetition'
 LONG_DESCRIPTION = (CURRENT_PATH / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
