@@ -13,6 +13,7 @@
 # **Py-Anki**
 * ### *Package Name* ---> **Py-Anki**
 * ### *Package Description* ---> A simple API for Anki Spaced Repetition
+* ### *Package URL* ---> **https://pypi.org/project/py-anki/#files**
 * ### *Developed By* ---> **[#arman_bhaai](https://www.google.com/search?q=%23arman_bhaai&oq=%23arman_bhaai)** *(either click on this hashtag or make a google search to discover more about my works)*
 * ### *My Personal Portfolio* ---> **https://arman-bhaai.github.io** *(some of my great projects are listed on my portfolio, so make sure you went through this)*
 * ### *Find Me on Github* ---> **https://github.com/arman-bhaai**
@@ -44,7 +45,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
 
   ```python
   # import api class from py-anki package
-  from py-anki import AnkiApi()
+  from py_anki import AnkiApi
 
   # create an instance of the api class
   anki = AnkiApi()
@@ -66,7 +67,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
 
   ```python
   # import api class from py-anki package
-  from py-anki import AnkiApi()
+  from py_anki import AnkiApi
 
   # create an instance of the api class
   anki = AnkiApi()
@@ -80,7 +81,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
   Expected Result : 
   <br>
   <br>
-  <img src="docs/create-model.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-model.png" width="70%" height="70%">
   <br>
   <br>
 
@@ -90,7 +91,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
 
   ```python
   # import api class from py-anki package
-  from py-anki import AnkiApi()
+  from py_anki import AnkiApi
 
   # create an instance of the api class
   anki = AnkiApi()
@@ -109,10 +110,10 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
     Expected Result : 
   <br>
   <br>
-  <img src="docs/create-note.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-note.png" width="70%" height="70%">
   <br>
   <br>
-  <img src="docs/create-note-2.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-note-2.png" width="70%" height="70%">
   <br>
   <br>
 
@@ -121,7 +122,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
 
   ```python
   # import api class from py-anki package
-  from py-anki import AnkiApi()
+  from py_anki import AnkiApi
 
   # create an instance of the api class
   anki = AnkiApi()
@@ -135,7 +136,7 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
 
   # store audio from the web for Note 1
   note1_audio1 = anki.fetch_audio(
-    url='https://lex-audio.useremarkable.com/mp3/  jasmine_us_1.mp3', 
+    url='https://lex-audio.useremarkable.com/mp3/jasmine_us_1.mp3', 
     filename='pronunc_jasmine.mp3', 
     fields=['Back']
   )
@@ -188,13 +189,13 @@ Py-Anki is an unofficial python binding/wrapper for [AnkiConnect](https://github
     Expected Result : 
   <br>
   <br>
-  <img src="docs/create-multiple-notes-1.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-multiple-notes-1.png" width="70%" height="70%">
   <br>
   <br>
-  <img src="docs/create-multiple-notes-2.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-multiple-notes-2.png" width="70%" height="70%">
   <br>
   <br>
-  <img src="docs/create-multiple-notes-3.png" width="70%" height="70%">
+  <img src="https://raw.githubusercontent.com/arman-bhaai/py-anki/main/docs/create-multiple-notes-3.png" width="70%" height="70%">
   <br>
   <br>
 <br>

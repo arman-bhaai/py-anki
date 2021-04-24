@@ -2,14 +2,14 @@ import pathlib
 from setuptools import setup, find_packages
 
 CURRENT_PATH = pathlib.Path(__file__).parent
-VERSION = '0.0.1' 
+VERSION = '0.0.2' 
 DESCRIPTION = 'A simple API for Anki Spaced Repetition'
 LONG_DESCRIPTION = (CURRENT_PATH / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 # Setting up
 setup(
-        name="py-anki", 
+        name="py_anki", 
         version=VERSION,
         author="Abu Bakar Siddique Arman",
         author_email="arman.bhaai@gmail.com",
@@ -17,7 +17,7 @@ setup(
         long_description=LONG_DESCRIPTION,
         long_description_content_type=LONG_DESC_TYPE,
         packages=find_packages(),
-        download_url="https://pypi.org/project/seafood-hs/#files",
+        download_url="https://pypi.org/project/py-anki/#files",
         url="https://github.com/arman-bhaai/py-anki",
         install_requires=[
             "requests",
@@ -27,7 +27,6 @@ setup(
         classifiers= [
             "Development Status :: 3 - Alpha",
             "Intended Audience :: Education",
-            "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 3",
             "Operating System :: MacOS :: MacOS X",
             "Operating System :: Microsoft :: Windows",
